@@ -1,0 +1,263 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Form</class>
+ <widget class="QWidget" name="Form">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>637</width>
+    <height>469</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">background: qlineargradient(x1:0, y1:0, x2:0, y2:1, stop:0 #FFDAB9, stop:1 #FFA07A);
+color: #FF8A65;
+font-weight:800;
+font-size:14px;</string>
+  </property>
+  <widget class="QTableWidget" name="tableWidget">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>290</y>
+     <width>631</width>
+     <height>181</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QWidget" name="verticalLayoutWidget_2">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>631</width>
+     <height>266</height>
+    </rect>
+   </property>
+   <layout class="QVBoxLayout" name="verticalLayout_3">
+    <item>
+     <layout class="QHBoxLayout" name="horizontalLayout_2">
+      <item>
+       <widget class="QLabel" name="label_12">
+        <property name="styleSheet">
+         <string notr="true">background:none</string>
+        </property>
+        <property name="text">
+         <string>User ID:</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QLineEdit" name="lineEdit_id">
+        <property name="enabled">
+         <bool>false</bool>
+        </property>
+       </widget>
+      </item>
+     </layout>
+    </item>
+    <item>
+     <layout class="QHBoxLayout" name="horizontalLayout">
+      <item>
+       <layout class="QFormLayout" name="formLayout">
+        <item row="0" column="0">
+         <widget class="QLabel" name="label_13">
+          <property name="styleSheet">
+           <string notr="true">background:none</string>
+          </property>
+          <property name="text">
+           <string>Ad</string>
+          </property>
+         </widget>
+        </item>
+        <item row="1" column="0">
+         <widget class="QLabel" name="label_14">
+          <property name="styleSheet">
+           <string notr="true">background:none</string>
+          </property>
+          <property name="text">
+           <string>Tc Kimlik</string>
+          </property>
+         </widget>
+        </item>
+        <item row="2" column="0">
+         <widget class="QLabel" name="label_15">
+          <property name="styleSheet">
+           <string notr="true">background:none</string>
+          </property>
+          <property name="text">
+           <string>Adres</string>
+          </property>
+         </widget>
+        </item>
+        <item row="3" column="0">
+         <widget class="QLabel" name="label_16">
+          <property name="styleSheet">
+           <string notr="true">background:none</string>
+          </property>
+          <property name="text">
+           <string>Meslek</string>
+          </property>
+         </widget>
+        </item>
+        <item row="4" column="0">
+         <widget class="QLabel" name="label_17">
+          <property name="styleSheet">
+           <string notr="true">background:none</string>
+          </property>
+          <property name="text">
+           <string>Medeni Durum</string>
+          </property>
+         </widget>
+        </item>
+        <item row="5" column="0">
+         <widget class="QLabel" name="label_18">
+          <property name="text">
+           <string>Aktif</string>
+          </property>
+         </widget>
+        </item>
+        <item row="5" column="1">
+         <widget class="QCheckBox" name="checkBox">
+          <property name="text">
+           <string/>
+          </property>
+         </widget>
+        </item>
+        <item row="0" column="1">
+         <widget class="QLineEdit" name="lineEdit_ad"/>
+        </item>
+        <item row="1" column="1">
+         <widget class="QLineEdit" name="lineEdit_tcno"/>
+        </item>
+        <item row="2" column="1">
+         <widget class="QLineEdit" name="lineEdit_adres"/>
+        </item>
+        <item row="3" column="1">
+         <widget class="QLineEdit" name="lineEdit_meslek"/>
+        </item>
+        <item row="4" column="1">
+         <widget class="QLineEdit" name="lineEdit_medeni"/>
+        </item>
+       </layout>
+      </item>
+      <item>
+       <layout class="QFormLayout" name="formLayout_2">
+        <item row="0" column="0">
+         <widget class="QLabel" name="label_19">
+          <property name="styleSheet">
+           <string notr="true">background:none</string>
+          </property>
+          <property name="text">
+           <string>Soyad</string>
+          </property>
+         </widget>
+        </item>
+        <item row="1" column="0">
+         <widget class="QLabel" name="label_20">
+          <property name="styleSheet">
+           <string notr="true">background:none</string>
+          </property>
+          <property name="text">
+           <string>Doğum Tarihi</string>
+          </property>
+         </widget>
+        </item>
+        <item row="2" column="0">
+         <widget class="QLabel" name="label_21">
+          <property name="styleSheet">
+           <string notr="true">background:none</string>
+          </property>
+          <property name="text">
+           <string>Tel</string>
+          </property>
+         </widget>
+        </item>
+        <item row="3" column="0">
+         <widget class="QLabel" name="label_22">
+          <property name="styleSheet">
+           <string notr="true">background:none</string>
+          </property>
+          <property name="text">
+           <string>Ehliyet Sınıfı</string>
+          </property>
+         </widget>
+        </item>
+        <item row="4" column="0">
+         <widget class="QLabel" name="label_23">
+          <property name="styleSheet">
+           <string notr="true">background:none</string>
+          </property>
+          <property name="text">
+           <string>Eğitim Durum</string>
+          </property>
+         </widget>
+        </item>
+        <item row="1" column="1">
+         <widget class="QLineEdit" name="lineEdit_dTarihi"/>
+        </item>
+        <item row="0" column="1">
+         <widget class="QLineEdit" name="lineEdit_soyad"/>
+        </item>
+        <item row="2" column="1">
+         <widget class="QLineEdit" name="lineEdit_telno"/>
+        </item>
+        <item row="3" column="1">
+         <widget class="QLineEdit" name="lineEdit_ehliyet"/>
+        </item>
+        <item row="4" column="1">
+         <widget class="QLineEdit" name="lineEdit_egitim"/>
+        </item>
+       </layout>
+      </item>
+     </layout>
+    </item>
+    <item>
+     <layout class="QHBoxLayout" name="horizontalLayout_3">
+      <item>
+       <widget class="QPushButton" name="pushButton_yeni">
+        <property name="text">
+         <string>Yeni</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QPushButton" name="pushButton_update">
+        <property name="text">
+         <string>Güncelle</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QPushButton" name="pushButton_kaydet">
+        <property name="text">
+         <string>Kaydet</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QPushButton" name="pushButton_sil">
+        <property name="text">
+         <string>Sil</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QPushButton" name="pushButton_Getir2">
+        <property name="text">
+         <string>Getir</string>
+        </property>
+       </widget>
+      </item>
+     </layout>
+    </item>
+   </layout>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
